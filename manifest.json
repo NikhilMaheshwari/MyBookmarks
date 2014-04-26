@@ -1,0 +1,19 @@
+{
+	"manifest_version":2,
+	
+	"name":"My Bookmarks",
+	"version":"1.1",
+	"description":"This is a sample app to get my bookmarks",
+	
+	"permissions": [
+		"bookmarks"
+	],
+	
+	"browser_action": {
+		"default_title":"MyBookmark",
+		"default_icon":"icon.png",
+		"default_popup":"popup.html"
+	},
+	
+	"content_security_policy":"script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
